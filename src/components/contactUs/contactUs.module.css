@@ -152,6 +152,10 @@
     }
 
     .form {
-      gap: 20px;
+      gap: 0;
+    }
+
+    .error {
+      margin: 5px 0;
     }
   }
