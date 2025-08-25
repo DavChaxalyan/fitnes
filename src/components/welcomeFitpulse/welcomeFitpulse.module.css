@@ -1,0 +1,83 @@
+.ourFitpulseContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    position: relative;
+}
+
+.ourFitpulseContent {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.ourFitpulseImgsBlock {
+    position: relative;
+    height: 500px;
+    max-width: 567px;
+    width: 100%;
+}
+
+.ourFitpulseImg1 {
+    width: 397px;
+    height: 466px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4;
+}
+
+.ourFitpulseImg2 {
+    
+    width: 318px;
+    height: 403px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+}
+
+.ourFitpulseImg1 img,
+.ourFitpulseImg2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.ourFitpulseContent p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    max-width: 685px;
+}
+
+@media (max-width: 550px) {
+    .ourFitpulseImg1 {
+        width: 234px;
+        height: 275px;
+    }
+
+    .ourFitpulseImg2 {
+        width: 187px;
+        height: 238px;
+    }
+
+    .ourFitpulseImgsBlock {
+        width: 335px;
+        height: 296px;
+    }
+
+    .ourFitpulseContent p {
+        font-size: 18px;
+        margin: 0 20px;
+        text-align: center;
+    }
+}

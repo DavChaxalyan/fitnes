@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #393939;
+}
+
+p, h2 {
+  margin: 0;
+}

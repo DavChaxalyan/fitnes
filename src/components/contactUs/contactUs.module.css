@@ -1,0 +1,157 @@
+.contactUsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-bottom: 150px;
+    padding: 0 20px;
+    position: relative;
+}
+
+.contactUsMainContent {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.contactUsInfoBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    z-index: 4;
+}
+
+.contactUsInfoCart {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    border-radius: 8px;
+    background-color: #4F4F4F;
+    padding: 20px 30px;
+}
+
+.contactUsInfoNumbers {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.contactUsInfoNumbers p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #D3D3D3;
+}
+
+.contactUsInfoCart span {
+    width: 2px;
+    height: 124px;
+    background-color: #FF1A49;
+}
+
+.formContainer {
+    width: 100%;
+    max-width: 661px;
+}
+
+.form {
+    width: 100%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .input,
+  .textarea {
+    background: transparent;
+    border: 1px solid #D3D3D3;
+    padding: 16px 16px 16px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    resize: none;
+  }
+
+  .textarea {
+    min-height: 145px;
+  }
+  
+  .input::placeholder,
+  .textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .error {
+    color: #ff4d4d;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 10px;
+  }
+  
+  .button {
+    background-color: #FF1A49;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px
+  }
+  
+  .button:hover {
+    background-color: transparent;
+    color: #FF1A49;
+    border: 1px solid #FF1A49;
+  }
+
+  @media (max-width: 880px) {
+    .contactUsMainContent {
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+  }
+
+
+  @media (max-width: 550px) {
+    .contactUsContainer {
+        gap: 40px;
+        margin-bottom: 100px;
+    }
+
+    .contactUsInfoCart {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contactUsInfoCart span {
+        height: 2px;
+        width: 154px;
+    }
+
+    .contactUsInfoBlock {
+        width: 100%;
+    }
+
+    .contactUsInfoNumbers p {
+      font-size: 18px;
+    }
+
+    .contactUsInfoNumbers {
+      align-items: center;
+    }
+
+    .button {
+      margin-top: 10px
+    }
+
+    .form {
+      gap: 20px;
+    }
+  }

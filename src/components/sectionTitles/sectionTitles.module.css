@@ -1,0 +1,41 @@
+.titleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.titleBlock {
+    font-family: 'Notable', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0;
+    position: relative;
+    z-index: 4;
+  }
+
+  .title1 {
+    color: #FFF;
+    margin-right: 15px;
+  }
+
+  .title2 {
+    color: #FF0035;
+  }
+
+  .titleUnderline {
+    width: 60px;
+    height: 5px;
+    background-color: #FF0035;
+  }
+
+  @media (max-width: 550px) {
+    .titleBlock {
+      font-size: 20px;
+    }
+  }
